@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+
+         <div class="col-md-6 mt-3">
+             <div class="card">
+              <div class="card-header bg-success">
+                Create a New Item
+              </div>
+              <div class="card-body">
+                <form method="POST">
+                {% csrf_token %}
+                 <div class="col-auto">
+                <label class="col-form-label" for="name">Name:</label>
+                 </div>
+                  <div class="col-auto">
+                <input type="text"  class="form-control" id="name" name="name" placeholder="Name" required>
+                        </div>
+              <div class="col-auto">
+                <label class="col-form-label" for="description">Description:</label>
+              </div>
+                <div class="col-auto">
+                <textarea id="description" class="form-control" name="description" placeholder="description"  required></textarea>
+                </div>
+
+                <button class="btn btn-success mt-2" type="submit">Create</button>
+            </form>
+                 <a href="{% url 'item_list' %}">Back to Items</a>
+              </div>
+            </div>
+        </div>
+        <div class="co-md-3"></div>
+    </div>
+</div>
+{% endblock %}

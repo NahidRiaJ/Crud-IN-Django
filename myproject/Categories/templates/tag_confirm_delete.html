@@ -1,0 +1,8 @@
+<!-- templates/tag_confirm_delete.html -->
+<h2>Delete Tag</h2>
+<p>Are you sure you want to delete "{{ tag.name }}"?</p>
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Yes, Delete</button>
+</form>
+<a href="{% url 'tag_list' %}">Cancel</a>

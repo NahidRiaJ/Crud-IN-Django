@@ -5,18 +5,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad6dde40-692f-4c21-bde0-0fe607655a1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/create_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/delete_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/item_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/item_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/update_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/category_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/category_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/category_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/tag_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/tag_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/templates/tag_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Categories/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/templates/product_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/templates/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/templates/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/templates/product_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/Product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/templates/accounts/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/templates/accounts/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/templates/accounts/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/SimpleView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myproject/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/asset/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/light-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/light-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/light-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/color/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/about-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/about-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/about-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/galaxy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/header-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/header-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/aetuts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/creative-market.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/designmodo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/envato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/microlancer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/themeforest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/logos/wordpress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/bg-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/bg-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/call-to.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/pricing-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/parallax/testimonial-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/portfolio/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/team/manage-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/team/manage-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/team/manage-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/team/manage-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/testimonial/face_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/testimonial/face_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/testimonial/face_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/images/testimonial/face_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/cbpAnimatedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/classie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/count-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jquery.appear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/styleswitcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +142,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2xTXdfZSfZtjOXDoYf9Ee2CifNY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,9 +158,23 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Django EDGE/PythonProject/myproject/accounts"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django EDGE\PythonProject\myproject\accounts" />
+      <recent name="D:\Django EDGE\PythonProject\myproject\myproject" />
+      <recent name="D:\Django EDGE\PythonProject\myproject\tamplates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Django EDGE\PythonProject\myproject\accounts\templates\accounts" />
+      <recent name="D:\Django EDGE\PythonProject\myproject\accounts\templates" />
+      <recent name="D:\Django EDGE\PythonProject\myproject\myproject\tamplates\accounts" />
+      <recent name="D:\Django EDGE\PythonProject\myproject\static" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,5 +192,16 @@
       <updated>1747963126185</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

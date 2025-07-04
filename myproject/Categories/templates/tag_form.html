@@ -1,0 +1,8 @@
+<!-- templates/tag_form.html -->
+<h2>{% if form.instance.pk %}Edit Tag{% else %}Add Tag{% endif %}</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Save</button>
+</form>
+<a href="{% url 'tag_list' %}">Back to Tag List</a>

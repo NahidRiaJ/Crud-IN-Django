@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from .SimpleView import simple_view   # correctly importing the view
+from .SimpleView import simple_view, index_view  # correctly importing the view
 
 urlpatterns = [
     # path('admin/', admin.site.urls),  # Enable admin panel
@@ -9,4 +9,5 @@ urlpatterns = [
     path('categories/', include('Categories.urls')),
     path('accounts/', include('accounts.urls')),
     path('', simple_view),  # Home page
+    path('index.html',index_view),
 ]

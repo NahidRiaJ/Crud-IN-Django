@@ -6,8 +6,7 @@ class LoginRequiredMiddleware:
         self.get_response = get_response
         self.protected_paths = [
             '/categories/',
-            '/Product/', d
-
+            '/Product/',
         ]
 
     def __call__(self, request):
